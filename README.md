@@ -21,6 +21,7 @@ Explore whether machine learning can classify plant-derived mass spectra into na
 ## Results
 
 ### Classification Report
+```text
 Random Forest
               precision    recall  f1-score   support
 
@@ -31,6 +32,7 @@ Random Forest
     accuracy                           1.00        30
    macro avg       1.00      1.00      1.00        30
 weighted avg       1.00      1.00      1.00        30
+```
 
 ### Confusion Matrix
 ![Confusion Matrix](images/confusion_matrix.png)
