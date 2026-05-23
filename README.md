@@ -15,7 +15,7 @@ Explore whether machine learning can classify plant-derived mass spectra into na
 - Load and clean the spectra data.
 - Split the dataset into training and test sets.
 - Train Random Forest, Logistic Regression, and SVM models.
-- Compare accuracy and classification metrics.
+- Comparing accuracy and classification metrics.
 - Visualize the confusion matrix and feature importance.
 
 ## Results
