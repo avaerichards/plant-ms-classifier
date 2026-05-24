@@ -35,13 +35,13 @@ weighted avg       1.00      1.00      1.00        30
 ```
 
 ### Confusion Matrix
-![Confusion Matrix](images/confusion_matrix.png)
+![Confusion Matrix](images/confusion_matrix.png.png)
 
 ### Accuracy Comparison
-![Accuracy Comparison](images/accuracy_bar_chart.png)
+![Accuracy Comparison](images/accuracy_bar_chart.png.png)
 
 ### Feature Importance
-![Feature Importance](images/feature_importance.png)
+![Feature Importance](images/feature_importance.png.png)
 
 ## Conclusion
 The models performed very well on this dataset, with strong classification results across all three classes.
