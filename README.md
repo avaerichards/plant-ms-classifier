@@ -38,7 +38,7 @@ weighted avg       1.00      1.00      1.00        30
 ![Confusion Matrix](images/confusion_matrix.png)
 
 ### Accuracy Comparison
-![Accuracy Bar Chart](images/accuracy_bar_chart.png)
+![Accuracy Comparison](images/accuracy_bar_chart.png)
 
 ### Feature Importance
 ![Feature Importance](images/feature_importance.png)
