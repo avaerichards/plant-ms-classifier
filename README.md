@@ -6,19 +6,25 @@
   <img src="https://img.shields.io/badge/Project-Biomedical%20Data%20Science-0a7b83?style=for-the-badge" alt="Project badge">
 </p>
 
-Machine learning project to classify plant-derived mass spectra into natural product classes using Python and scikit-learn.
+Machine learning workflow for classifying plant-derived mass spectrometry data into natural product classes using Python and scikit-learn.
 
 ## Overview
 
-This project uses supervised machine learning to classify plant mass spectrometry data into natural product classes such as alkaloids, flavonoids, and terpenoids. The goal is to demonstrate a simple classification workflow for biological or chemical datasets using Python, feature selection, model training, and visualization.
+This project applies supervised machine learning to plant mass spectrometry data in order to classify samples into natural product classes such as alkaloids, flavonoids, and terpenoids. It was designed as a portfolio project at the intersection of biochemistry, analytical chemistry, and data science.
+
+The goal of this project is to demonstrate a complete scientific machine learning workflow, including data loading, preprocessing, model training, evaluation, and interpretation of results.
+
+## Scientific Motivation
+
+Natural products remain an important area of drug discovery and chemical biology. Classifying plant-derived mass spectrometry data can help organize complex chemical information and support early-stage analysis of biologically relevant compounds.
 
 ## Features
 
-- Classifies plant-derived mass spectra into natural product classes
-- Uses Python and scikit-learn for model development
-- Includes model evaluation with a confusion matrix
-- Compares model accuracy visually
-- Shows feature importance for interpretation
+- Classification of plant-derived mass spectra into natural product classes
+- Model development using Python and scikit-learn
+- Performance evaluation with classification metrics and a confusion matrix
+- Visual comparison of model accuracy
+- Feature importance analysis for model interpretation
 
 ## Project Structure
 
@@ -37,23 +43,25 @@ plant-ms-classifier/
 - Python
 - Jupyter Notebook
 - pandas
-- numpy
+- NumPy
 - matplotlib
 - seaborn
 - scikit-learn
 
 ## Workflow
 
-1. Load and preprocess the mass spectrometry dataset.
-2. Train a classification model using scikit-learn.
-3. Evaluate performance using accuracy metrics and a confusion matrix.
-4. Visualize results with charts and feature importance plots.
+1. Load the plant mass spectrometry dataset.
+2. Separate features and class labels.
+3. Encode labels and split data into training and test sets.
+4. Train machine learning models using scikit-learn.
+5. Evaluate model performance with classification metrics.
+6. Visualize results using a confusion matrix, model comparison chart, and feature importance plot.
 
 ## Results
 
-### Classification Report
+### Classification Summary
 
-The model achieved high classification performance across the selected plant compound classes, with strong precision, recall, and F1-scores in the sample output.
+The models showed strong classification performance across the selected natural product classes. This project demonstrates how machine learning can be applied to chemical datasets to distinguish biologically relevant compound groups from spectral features.
 
 ### Visualizations
 
@@ -78,40 +86,48 @@ The model achieved high classification performance across the selected plant com
 ## How to Run
 
 1. Clone this repository:
+
    ```bash
    git clone https://github.com/avaerichards/plant-ms-classifier.git
    ```
 
-2. Open the project folder:
+2. Move into the project folder:
+
    ```bash
    cd plant-ms-classifier
    ```
 
 3. Launch Jupyter Notebook:
+
    ```bash
    jupyter notebook
    ```
 
-4. Open `plant_ms_classifier.ipynb` and run the cells.
+4. Open `plant_ms_classifier.ipynb` and run the notebook cells.
 
 ## Applications
 
-This type of workflow can be useful in:
+This workflow is relevant to:
+- natural products research
+- metabolomics
+- plant biochemistry
+- introductory cheminformatics and machine learning for scientific data
 
-- Natural products research
-- Metabolomics
-- Plant biochemistry
-- Introductory machine learning for scientific data
+## Limitations
+
+- The dataset is relatively small and may not reflect the variability of real experimental spectra.
+- Model performance may change with larger or more diverse datasets.
+- This project is intended as a proof-of-concept workflow rather than a validated predictive tool.
 
 ## Future Improvements
 
-- Add more plant compound classes
-- Test additional machine learning models
-- Include cross-validation results
+- Add more natural product classes
+- Evaluate additional machine learning models
+- Include cross-validation
 - Add a cleaned sample dataset to the repository
-- Convert the notebook into a Python script or small web app
+- Convert the notebook into a reproducible script-based pipeline
 
 ## Author
 
 **Ava Richards**  
-Biomedical science / biochemistry student interested in machine learning, chemistry, and data analysis.
+Biomedical science / biochemistry student interested in medicinal chemistry, natural products, machine learning, and scientific data analysis.
